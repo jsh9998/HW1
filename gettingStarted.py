@@ -30,7 +30,7 @@ def welcome_assignment_answers(question):
         question
         == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number"
     ):
-        answer = 7
+        answer = 4
     elif (
         question
         == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number"
@@ -40,7 +40,7 @@ def welcome_assignment_answers(question):
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
         ### maybe put something here to flag an issue and catch errors
-        answer = "This is not my beautiful wife! This is not my beautiful car! How did I get here?"
+        answer = "There is a typo in the question! Please check all conditionals."
     return answer
 
 
